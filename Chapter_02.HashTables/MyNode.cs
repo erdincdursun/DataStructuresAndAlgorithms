@@ -1,14 +1,13 @@
-﻿namespace Chapter_02.HashTables
+﻿class MyNode
 {
-	class MyNode
+	public string Key { get; set; }
+	public int Value { get; set; }
+	public MyNode(string key, int value)
 	{
-		public string key { get; set; }
-		public int value { get; set; }
-		public MyNode(string key, int value)
-		{
-			this.key = key;
-			this.value = value;
-		}
-
+		this.Key = key;
+		this.Value = value;
 	}
 }
+
+
+
