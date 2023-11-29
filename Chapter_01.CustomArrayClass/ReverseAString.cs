@@ -23,7 +23,7 @@ namespace Chapter_01.CustomArrayClass
 			char[] charArray = text.ToCharArray();
 			Array.Reverse(charArray);
 			string reversedString = new string(charArray);
-            Console.WriteLine(reversedString);
+            Console.WriteLine(reversedString);	
         }
 	}
 }
