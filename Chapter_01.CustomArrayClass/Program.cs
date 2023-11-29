@@ -39,8 +39,6 @@
 				Console.Write(arrayResult[i] + " ");
             }
 			//arrayResult[0,3,4,4,6,30,31];
-
-
 			int[] array1 = { 0, 3, 4, 31 };
 			int size1 = array1.Length;
 			
@@ -50,7 +48,6 @@
 			int[] array3 = new int[size1 + size2];
 
 			mergeSortedArrays.MergeArrays(array1 , array2, size1,size2, array3);
-
 
 			Console.Write("Array after merging\n");
 			for (int i = 0; i < size1 + size2; i++)

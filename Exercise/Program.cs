@@ -21,7 +21,7 @@ namespace Exercise
 
 			int[] array = { 2, 5, 1, 2, 3, 5, 1, 2, 4 };
 
-            Console.WriteLine(FirstRecurringCharacter(array)); 
+			Console.WriteLine(FirstRecurringCharacter(array));
 
 			#endregion
 		}
