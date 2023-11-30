@@ -1,9 +1,9 @@
 ﻿namespace Chapter_01.CustomArrayClass
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
+	internal class Program
+	{
+		static void Main(string[] args)
+		{
 			#region MyArray
 			//MyArray myArray = new MyArray();
 			//myArray.Push("hello");
@@ -30,31 +30,40 @@
 			//text.ReverseStringTwo("I'am Busra");
 			#endregion
 			#region MergeArray
-			MergeSortedArrays mergeSortedArrays = new MergeSortedArrays();
-			int[] arrayOne = { 0, 3, 4, 31 };
-			int[] arrayTwo = {4,6,30};
-			int[] arrayResult=(mergeSortedArrays.MergeSortedArray(arrayOne, arrayTwo));
-            for (int i = 0; i < arrayResult.Length; i++)
-            {
-				Console.Write(arrayResult[i] + " ");
-            }
-			//arrayResult[0,3,4,4,6,30,31];
-			int[] array1 = { 0, 3, 4, 31 };
-			int size1 = array1.Length;
-			
-			int[] array2 = { 4,6,30};
-			int size2 = array2.Length;
+			//MergeSortedArrays mergeSortedArrays = new MergeSortedArrays();
+			//int[] arrayOne = { 0, 3, 4, 31 };
+			//int[] arrayTwo = { 4, 6, 30 };
+			//int[] arrayResult = (mergeSortedArrays.MergeSortedArray(arrayOne, arrayTwo));
+			//for (int i = 0; i < arrayResult.Length; i++)
+			//{
+			//	Console.Write(arrayResult[i] + " ");
+			//}
+			////arrayResult[0,3,4,4,6,30,31];
+			//int[] array1 = { 0, 3, 4, 31 };
+			//int size1 = array1.Length;
 
-			int[] array3 = new int[size1 + size2];
+			//int[] array2 = { 4, 6, 30 };
+			//int size2 = array2.Length;
 
-			mergeSortedArrays.MergeArrays(array1 , array2, size1,size2, array3);
+			//int[] array3 = new int[size1 + size2];
 
-			Console.Write("Array after merging\n");
-			for (int i = 0; i < size1 + size2; i++)
-				Console.Write(array3[i] + " ");
+			//mergeSortedArrays.MergeArrays(array1, array2, size1, size2, array3);
+
+			//Console.Write("Array after merging\n");
+			//for (int i = 0; i < size1 + size2; i++)
+			//	Console.Write(array3[i] + " ");
 
 			#endregion
+			#region QueryArray
+			var arr = new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
+			QueryArray<int> query = arr;
+			while (query.Next())
+			{
+				Console.WriteLine(query.Current);
+			}
+			
+			#endregion
 
 		}
 	}

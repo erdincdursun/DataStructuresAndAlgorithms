@@ -18,7 +18,6 @@ namespace Chapter_01.CustomArrayClass
 			return mergeArray;
 		}
 
-
 		//2.Solution
 		// arrayOne[0,3,4,31] ,   arrayTwo[4,6,30];
 		// arrayResult[0,3,4,4,6,30,31];

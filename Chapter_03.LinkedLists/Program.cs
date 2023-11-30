@@ -4,7 +4,10 @@
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello, World!");
-		}
+			LinkedList newList = new LinkedList(5);
+
+            newList.Append(10);
+
+        }
 	}
 }
