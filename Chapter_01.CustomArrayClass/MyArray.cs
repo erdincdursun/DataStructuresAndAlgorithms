@@ -10,7 +10,6 @@ namespace Chapter_01.CustomArrayClass
     {
         public int Length;
         private Object[] Data;
-
         //Creating Constructors
         public MyArray()
         {

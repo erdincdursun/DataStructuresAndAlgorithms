@@ -19,7 +19,7 @@ namespace Exercise
 			//Given an array = [2,3,4,5]:
 			//It should return undefined
 
-			int[] array = { 2, 5, 1, 2, 3, 5, 1, 2, 4 };
+			int[] array = { 2, 5, 5, 2, 3, 5, 1, 2, 4 };
 
 			Console.WriteLine(FirstRecurringCharacter(array));
 
