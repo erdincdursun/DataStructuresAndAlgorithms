@@ -69,7 +69,6 @@ namespace Chapter_03.LinkedLists
             }
             return currentNode;
         }
-
         public void Remove(int index)
         {
             DoublyNode leader = TraversalIndex(index - 1);
@@ -78,7 +77,6 @@ namespace Chapter_03.LinkedLists
             removeNode.Next.Previous = leader;
             this.Length--;
         }
-
         public void PrintList()
         {
             if (this.Head == null) return;

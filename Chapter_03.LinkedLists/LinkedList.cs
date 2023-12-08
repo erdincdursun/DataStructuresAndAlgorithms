@@ -71,7 +71,7 @@
             }
             return currentNode;
         }
-        
+
         public void Reverse()
         {
             if (this.Head.Next == null)
@@ -79,9 +79,9 @@
                 PrintList();
             }
             Node first = this.Head;
-            this.Tail = this.Head;  
+            this.Tail = this.Head;
             Node second = first.Next;
-            for (int i = 0; i < Length-1; i++)
+            for (int i = 0; i < Length - 1; i++)
             {
                 Node temp = second.Next;
                 second.Next = first;

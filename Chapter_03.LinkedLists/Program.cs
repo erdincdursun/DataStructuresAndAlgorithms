@@ -19,15 +19,15 @@
             newList.Reverse();
             newList.PrintList();
 
-            //Console.WriteLine("\n Doubly Linked List \n");
+            Console.WriteLine("\n Doubly Linked List \n");
 
-            //DoublyLinkedList doublyLinkedList = new DoublyLinkedList(10);
-            //doublyLinkedList.Append(5);
-            //doublyLinkedList.Append(16);
-            //doublyLinkedList.Prepend(1);
-            //doublyLinkedList.Insert(2, 99);
-            //doublyLinkedList.Remove(3);
-            //doublyLinkedList.PrintList();
+            DoublyLinkedList doublyLinkedList = new DoublyLinkedList(10);
+            doublyLinkedList.Append(5);
+            doublyLinkedList.Append(16);
+            doublyLinkedList.Prepend(1);
+            doublyLinkedList.Insert(2, 99);
+            doublyLinkedList.Remove(3);
+            doublyLinkedList.PrintList();
 
 
 

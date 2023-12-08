@@ -16,7 +16,7 @@ namespace Chapter_03.LinkedLists
         {
             this.Value = value;
             this.Next = null;
-            this.Previous = null; 
+            this.Previous = null;
         }
     }
 }
