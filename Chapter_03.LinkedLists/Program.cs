@@ -28,13 +28,6 @@
             doublyLinkedList.Insert(2, 99);
             doublyLinkedList.Remove(3);
             doublyLinkedList.PrintList();
-
-
-
-
-
-
-
         }
     }
 }

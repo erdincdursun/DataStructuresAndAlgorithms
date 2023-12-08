@@ -12,7 +12,6 @@
             this.Tail = this.Head;
             this.Length = 1;
         }
-
         public void Append(Object value)
         {
             Node newNode = new Node(value);
@@ -20,7 +19,6 @@
             this.Tail = newNode;
             this.Length++;
         }
-
         public void Prepend(Object value)
         {
             Node newNode = new Node(value);
@@ -39,7 +37,6 @@
             }
             Console.WriteLine();
         }
-
         public void Insert(int index, Object value)
         {
             if (index >= this.Length)
@@ -59,7 +56,6 @@
             newNode.Next = holdingPointer;
             this.Length++;
         }
-
         private Node TraversalIndex(int index)
         {
             int counter = 0;
@@ -71,7 +67,6 @@
             }
             return currentNode;
         }
-
         public void Reverse()
         {
             if (this.Head.Next == null)
@@ -115,6 +110,5 @@
         {
             return this.Tail;
         }
-
     }
 }

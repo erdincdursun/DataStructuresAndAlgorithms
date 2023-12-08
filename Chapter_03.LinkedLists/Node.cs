@@ -6,8 +6,8 @@
 		public Node Next { get; set; }
 		public Node(Object value)
 		{
-			this.Value = value;
-			this.Next = null;
+		    this.Value = value;
+		    this.Next = null;
 		}
 	}
 }
