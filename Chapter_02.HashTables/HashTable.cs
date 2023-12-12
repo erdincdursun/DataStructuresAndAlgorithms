@@ -17,7 +17,6 @@ namespace Chapter_02.HashTables
 			this.Length = size;
 			this.Data = new MyNodes[size];
 		}
-
 		private int Hash(string key)
 		{
 			int hash = 0;
@@ -27,7 +26,6 @@ namespace Chapter_02.HashTables
 			}
 			return hash;
 		}
-
 		public void Set(string key, int value)
 		{
 			int index = Hash(key);
@@ -37,7 +35,6 @@ namespace Chapter_02.HashTables
 			}
 			this.Data[index].Add(new MyNode(key, value));
 		}
-
 		public int Get(string key)
 		{
 			int index = Hash(key);
@@ -54,7 +51,6 @@ namespace Chapter_02.HashTables
 			}
 			return 0;
 		}
-
 		public List<string> Keys()
 		{
 			List<string> result = new List<string>();
@@ -70,8 +66,6 @@ namespace Chapter_02.HashTables
 			}
 			return result;
 		}
-
-
 	}
 }
 

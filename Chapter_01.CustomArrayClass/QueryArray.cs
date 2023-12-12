@@ -25,15 +25,12 @@ namespace Chapter_01.CustomArrayClass
 		{
 
 		}
-
-
 		public T Current => arr[currentIndex];
 
 		public void Reset()
 		{
 			SetIndex(-1);
 		}
-
 		private void SetCurrent(int increase)
 		{
 			SetIndex(currentIndex + increase);
@@ -62,7 +59,6 @@ namespace Chapter_01.CustomArrayClass
 			}
 			return false;
 		}
-
 		public void LoadFromArray(T[] newArr)
 		{
 			Load(newArr);
@@ -74,8 +70,6 @@ namespace Chapter_01.CustomArrayClass
 			arrSize = newArr.Length;
 			Reset();
 		}
-
-
 		public static implicit operator QueryArray<T>(T[] newArray)
 		{
 			var query = new QueryArray<T>();

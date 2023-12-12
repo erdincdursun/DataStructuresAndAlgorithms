@@ -28,7 +28,7 @@ namespace Chapter_03.LinkedLists
             this.Tail = doublyNode;
             this.Length++;
         }
-        public void Prepend(Object value)
+        public void Prepend(Object value) 
         {
             DoublyNode doublyNode = new DoublyNode(value);
             doublyNode.Next = this.Head;
