@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise", "Exercise\Exerci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_03.LinkedLists", "Chapter_03.LinkedLists\Chapter_03.LinkedLists.csproj", "{445F183C-5108-40D2-91A1-3697DFD490F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_04.StacksQueues", "Chapter_04.StacksQueues\Chapter_04.StacksQueues.csproj", "{E42EE65E-A3CC-4F12-B2AA-7E820C367B40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_04.StacksQueues", "Chapter_04.StacksQueues\Chapter_04.StacksQueues.csproj", "{E42EE65E-A3CC-4F12-B2AA-7E820C367B40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_05.Trees", "Chapter_05.Trees\Chapter_05.Trees.csproj", "{CE5E3C2C-3703-49C8-9C1D-2722AD99553E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{E42EE65E-A3CC-4F12-B2AA-7E820C367B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E42EE65E-A3CC-4F12-B2AA-7E820C367B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E42EE65E-A3CC-4F12-B2AA-7E820C367B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE5E3C2C-3703-49C8-9C1D-2722AD99553E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5E3C2C-3703-49C8-9C1D-2722AD99553E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5E3C2C-3703-49C8-9C1D-2722AD99553E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5E3C2C-3703-49C8-9C1D-2722AD99553E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
