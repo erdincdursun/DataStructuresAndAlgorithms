@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_03.LinkedLists", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_04.StacksQueues", "Chapter_04.StacksQueues\Chapter_04.StacksQueues.csproj", "{E42EE65E-A3CC-4F12-B2AA-7E820C367B40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_05.Trees", "Chapter_05.Trees\Chapter_05.Trees.csproj", "{CE5E3C2C-3703-49C8-9C1D-2722AD99553E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_05.Trees", "Chapter_05.Trees\Chapter_05.Trees.csproj", "{CE5E3C2C-3703-49C8-9C1D-2722AD99553E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_06.Graphs", "Chapter_06.Graphs\Chapter_06.Graphs.csproj", "{3057C716-315A-4503-BF4F-483A5CF7D16F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{CE5E3C2C-3703-49C8-9C1D-2722AD99553E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE5E3C2C-3703-49C8-9C1D-2722AD99553E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE5E3C2C-3703-49C8-9C1D-2722AD99553E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3057C716-315A-4503-BF4F-483A5CF7D16F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3057C716-315A-4503-BF4F-483A5CF7D16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3057C716-315A-4503-BF4F-483A5CF7D16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3057C716-315A-4503-BF4F-483A5CF7D16F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
