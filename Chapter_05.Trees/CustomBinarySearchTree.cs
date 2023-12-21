@@ -46,7 +46,6 @@ namespace Chapter_05.Trees
          }
 
       }
-      
       public Node Lookup(int value)
       {
          if (this.root == null)
