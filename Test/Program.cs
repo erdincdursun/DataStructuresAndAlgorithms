@@ -23,7 +23,6 @@
 			ReverseString("ı'am erdinc");
 			ReverseString2("ı'am erdinc");
 
-
 			int[] array1 = { 1, 2, 8 };
 			int length1 = array1.Length;
 			int[] array2 = { 4, 5, 6 };
@@ -34,15 +33,10 @@
 			MergeSortArray(array1, array2, array3, length1, length2);
 			MergeSortArray2(array1, array2);
 
-
-
 			for (int i = 0; i < array3.Length; i++)
 			{
 				Console.Write(array3[i]);
 			}
-
-
-
 
 		}
 		#region ReverseString
