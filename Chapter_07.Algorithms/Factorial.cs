@@ -46,6 +46,20 @@ namespace Chapter_07.Algorithms
          return result;
       }
 
+      public long FactorialIterative2(long number)
+      {
+         if (number == 1 || number == 2)
+         {
+            return number;
+         }
+         long factorial = 1;
+         while (number > 0)
+         {
+            factorial *= number;
+            number--;
+         }
+         return factorial;
+      }
 
    }
 }

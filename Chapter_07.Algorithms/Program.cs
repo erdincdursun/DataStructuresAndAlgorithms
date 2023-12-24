@@ -11,9 +11,14 @@
 
          Fibonacci fibonacci = new Fibonacci();
          fibonacci.FibonacciIterative(10);
-         fibonacci.FibonacciRecursive(10);
+         fibonacci.FibonacciRecursive(5);
          Console.WriteLine();
          fibonacci.FibonacciArray(10);
+
+         ReverseString reverseString = new ReverseString();
+         Console.WriteLine(reverseString.StringReverse("hello algorithms. ı'm erdinc"));
+         reverseString.ReverseStringRecursively("yoyo master");
+         reverseString.ReverseStringIteratively("yoyo master");
       }
    }
 }

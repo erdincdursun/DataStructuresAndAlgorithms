@@ -51,17 +51,6 @@ namespace Chapter_07.Algorithms
          {
             Console.Write(fibonacci[i] + " ");
          }
-      }
-      
-
-      public int RecursiveFibonacci(int n)
-      {
-         if (n<2)
-         {
-            return n;
-         }
-         return RecursiveFibonacci(n - 1) + RecursiveFibonacci(n - 2);
-      }
-
+      }      
    }
 }
