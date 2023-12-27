@@ -52,19 +52,15 @@
 			//Console.Write("Array after merging\n");
 			//for (int i = 0; i < size1 + size2; i++)
 			//	Console.Write(array3[i] + " ");
-
 			#endregion
 			#region QueryArray
 			var arr = new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-
 			QueryArray<int> query = arr;
 			while (query.Next())
 			{
 				Console.WriteLine(query.Current);
 			}
-			
 			#endregion
-
 		}
 	}
 }

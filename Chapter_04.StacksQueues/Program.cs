@@ -20,7 +20,6 @@
             stackArray.PrintStack();
             Console.WriteLine($"ArrayList Pop : {stackArray.Pop()}\n");
 
-
             Console.WriteLine("---Queue : LinkedList---");
             CustomQueueLinkedList queue = new CustomQueueLinkedList();
             queue.Enqueue("Busra");
