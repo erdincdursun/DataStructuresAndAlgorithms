@@ -17,8 +17,8 @@
 
          ReverseString reverseString = new ReverseString();
          Console.WriteLine(reverseString.StringReverse("hello algorithms. ı'm erdinc"));
-         reverseString.ReverseStringRecursively("yoyo master");
-         reverseString.ReverseStringIteratively("yoyo master");
+			Console.WriteLine(reverseString.ReverseStringRecursively("yoyo master"));
+         Console.WriteLine(reverseString.ReverseStringIteratively("yoyo master")); 
       }
    }
 }

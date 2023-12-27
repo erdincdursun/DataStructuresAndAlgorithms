@@ -60,6 +60,5 @@ namespace Chapter_07.Algorithms
          }
          return factorial;
       }
-
    }
 }

@@ -23,7 +23,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStruc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{C46491C1-6D8D-4028-84EF-3FE305243DF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_07.Algorithms", "Chapter_07.Algorithms\Chapter_07.Algorithms.csproj", "{E359E8CA-47F8-412F-B387-AE3A8F89F8AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_07.Algorithms", "Chapter_07.Algorithms\Chapter_07.Algorithms.csproj", "{E359E8CA-47F8-412F-B387-AE3A8F89F8AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter_08.SortingAlgorithms", "Chapter_08.SortingAlgorithms\Chapter_08.SortingAlgorithms.csproj", "{9F110E24-A02F-4386-B355-2D6FE40B5914}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +69,10 @@ Global
 		{E359E8CA-47F8-412F-B387-AE3A8F89F8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E359E8CA-47F8-412F-B387-AE3A8F89F8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E359E8CA-47F8-412F-B387-AE3A8F89F8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F110E24-A02F-4386-B355-2D6FE40B5914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F110E24-A02F-4386-B355-2D6FE40B5914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F110E24-A02F-4386-B355-2D6FE40B5914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F110E24-A02F-4386-B355-2D6FE40B5914}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +85,7 @@ Global
 		{CE5E3C2C-3703-49C8-9C1D-2722AD99553E} = {AC786D02-F779-467F-A282-DA9EC9E26CD5}
 		{3057C716-315A-4503-BF4F-483A5CF7D16F} = {AC786D02-F779-467F-A282-DA9EC9E26CD5}
 		{E359E8CA-47F8-412F-B387-AE3A8F89F8AA} = {C46491C1-6D8D-4028-84EF-3FE305243DF2}
+		{9F110E24-A02F-4386-B355-2D6FE40B5914} = {C46491C1-6D8D-4028-84EF-3FE305243DF2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37F00B95-4503-4DD7-AF9E-7F7ECBDAEEFA}

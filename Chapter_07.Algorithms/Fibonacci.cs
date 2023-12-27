@@ -51,6 +51,6 @@ namespace Chapter_07.Algorithms
          {
             Console.Write(fibonacci[i] + " ");
          }
-      }      
+      }            
    }
 }
