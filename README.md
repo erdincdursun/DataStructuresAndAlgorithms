@@ -12,4 +12,5 @@ Data Structures and Algorithms
 
 ### Algorithms
   - Recursion
+  - Sorting
 
