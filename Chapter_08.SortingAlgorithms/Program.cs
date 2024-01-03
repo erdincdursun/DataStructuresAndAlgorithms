@@ -11,7 +11,7 @@
 			//bubbleSort.BubbleSortOne(numbers);
 			//selectionSort.SelectionSortOne(numbers);
 			//insertionSort.InsertionSortOne(numbers);
-			//for (int i = 0; i < numbers.Length; i++)
+			//for (int i = 0; i < numbers.Length; i++)t
 			//{
 			//	Console.Write(numbers[i] + " ");
 			//}
