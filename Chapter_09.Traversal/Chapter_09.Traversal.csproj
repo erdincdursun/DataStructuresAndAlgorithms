@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Chapter_05.Trees\Chapter_05.Trees.csproj" />
+  </ItemGroup>
+
 </Project>

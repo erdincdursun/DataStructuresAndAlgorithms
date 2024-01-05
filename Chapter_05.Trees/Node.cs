@@ -10,7 +10,7 @@ namespace Chapter_05.Trees;
  {
      public Node Left;
      public Node Right;
-   public int Value;
+     public int Value;
      public Node(int value)
      {
          this.Left = null;
