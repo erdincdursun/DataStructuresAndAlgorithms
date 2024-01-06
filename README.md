@@ -11,6 +11,10 @@ Data Structures and Algorithms
   6. Graph
 
 ### Algorithms
+  - Dynamic Programming
   - Recursion
   - Sorting
+  - Traversals
+    * BFS
+    * DFS
 
