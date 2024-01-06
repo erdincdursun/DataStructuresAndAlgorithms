@@ -63,9 +63,9 @@ namespace Chapter_09.Traversal
 			{
 				TraversePostOrder(node.Left, list);
 			}
-			if(node.Right != null)
+			if (node.Right != null)
 			{
-				TraversePostOrder(node.Right,list);
+				TraversePostOrder(node.Right, list);
 			}
 			list.Add(node.Value);
 			return list;
