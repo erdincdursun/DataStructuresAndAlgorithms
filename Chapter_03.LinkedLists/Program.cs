@@ -11,7 +11,9 @@ internal class Program
 		newList.Append(50);
 		newList.Prepend(1);
 		newList.Insert(2, 99);
-		newList.Remove(2);
+		//newList.Remove(2);
+		//newList.RemoveLast();
+		//newList.RemoveFirst();
 		Console.WriteLine("Orginal: ");
 		newList.PrintList();
 		Console.WriteLine("Reverse: ");
