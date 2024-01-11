@@ -11,13 +11,18 @@ internal class Program
 		newList.Append(50);
 		newList.Prepend(1);
 		newList.Insert(2, 99);
-		//newList.Remove(2);
-		//newList.RemoveLast();
-		//newList.RemoveFirst();
+      newList.InsertBool(2, 98);
+      //newList.Remove(2);
+      //newList.RemoveLast();
+      //newList.RemoveFirst();
+      Console.WriteLine(newList.Get(2).Value);
+		newList.Set(1, 45);
 		Console.WriteLine("Orginal: ");
 		newList.PrintList();
+      Console.WriteLine($"Middle Node : {newList.FindMiddleNode().Value}"); 
 		Console.WriteLine("Reverse: ");
-		newList.Reverse();
+		newList.Reverse2();
+		//newList.Reverse();
 		newList.PrintList();
 
 		Console.WriteLine("\n Doubly Linked List \n");

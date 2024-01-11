@@ -1,4 +1,6 @@
-﻿namespace Chapter_03.LinkedLists;
+﻿using System.Runtime.CompilerServices;
+
+namespace Chapter_03.LinkedLists;
 public class LinkedList
 {
    private Node Head;
@@ -35,6 +37,26 @@ public class LinkedList
          current = current.Next;
       }
       Console.WriteLine();
+   }
+   public bool InsertBool(int index, int value)
+   {
+      if (index < 0 || index >= Length) return false;
+      if (index == 0)
+      {
+         Prepend(value);
+         return true;
+      }
+      if (index == Length)
+      {
+         Append(value);
+         return true;
+      }
+      Node newNode = new Node(value);
+      Node temp = Get(index - 1);
+      newNode.Next = temp.Next;
+      temp.Next = newNode;
+      this.Length++;
+      return true;
    }
    public void Insert(int index, Object value)
    {
@@ -85,6 +107,25 @@ public class LinkedList
       this.Head.Next = null;
       this.Head = first;
    }
+
+   public void Reverse2()
+   {
+      Node temp = Head;
+      Head = Tail;
+      Tail = temp;
+
+      Node after = temp.Next;
+      Node before = null;
+
+      for (int i = 0; i < Length; i++)
+      {
+         after = temp.Next;
+         temp.Next = before;
+         before = temp;
+         temp = after;
+         
+      }
+   }
    public Node RemoveLast()
    {
       if (Length == 0) return null;
@@ -131,6 +172,20 @@ public class LinkedList
       leader.Next = nodeToRemove.Next;
       this.Length--;
    }
+   public Node Remove2(int index)
+   {
+      if (index < 0 || index >= Length) return null;
+      if (index == 0) return RemoveFirst();
+      if (index == Length - 1) return RemoveLast();
+
+      Node prev = Get(index - 1);
+      Node temp = prev.Next;
+
+      prev.Next = temp.Next;
+      temp.Next = null;
+      Length--;
+      return temp;
+   }
    public int GetLength()
    {
       return this.Length;
@@ -143,5 +198,38 @@ public class LinkedList
    {
       return this.Tail;
    }
-}
+   public Node Get(int index)
+   {
+      if (index < 0 || index >= Length) return null;
+      Node temp = Head;
+      for (int i = 0; i < index; i++)
+      {
+         temp = temp.Next;
+      }
+      return temp;
+   }
+   public bool Set(int index, int value)
+   {
+      Node temp = Get(index);
+      if (temp != null)
+      {
+         temp.Value = value;
+         return true;
+      }
+      return false;
+   }
+   public Node FindMiddleNode()
+   {
+      Node slow = Head;
+      Node fast = Head;
 
+      while(fast is not null && fast.Next is  not null)
+      {
+         slow = slow.Next;
+         fast = fast.Next.Next;
+      }
+      return slow;
+   }
+
+
+}
